@@ -7,7 +7,30 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div id="container">
+        Let's play Rock, Paper, Scissors!
+        <br />
+        The first to get 5 points wins.
+        <br />
+        Choose Your Move:
+        <br />
+        <button id="rock" onclick="playRound('Rock')">Rock</button>
+        <button id="paper" onclick="playRound('Paper')">Paper</button>
+        <button id="scissors" onclick="playRound('Scissors')">Scissors</button>
+    
 
+        <div id="results">
+
+        </div>
+
+        
+    </div>
+    <div id="Scoreboard">
+        <label id="gameOver"></label>
+        <br />
+        Your score:<label id="playerScore">0</label>
+        Computer score:<label id="computerScore">0</label>
+    </div>
     <script src="app.js" charset="utf-8"></script>
-</body>
+</body> 
 </html>
